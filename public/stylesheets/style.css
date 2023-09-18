@@ -2,6 +2,9 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+body,.bronze{
+  background-color: #605e5b;
+}
 label, input{
   display: block;
 }
@@ -46,6 +49,26 @@ input, select{
 }
 .address-text p:last-child{
   margin-bottom: 6px;
+}
+/*change card colors to reflect type of insurance*/
+.card.premium{
+  border: 2px solid #d7ac57;
+  color: #ffca1b;
+  background-color: rgba(215, 172, 87, 0.62);
+}
+.card.standard{
+  border: 2px solid #999;
+  color: #beb6b0;
+  background-color: rgba(153, 153, 153, 0.59);
+}
+.card.bronze{
+  border: 2px solid #714740;
+  color: #e1a874;
+  background-color: rgba(113, 71, 64, 0.55);
+}
+p.label, .title{
+  color: #000000;
+  font-weight: bold;
 }
 a {
   color: #00B7FF;
