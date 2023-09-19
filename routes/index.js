@@ -21,6 +21,7 @@ router.post('/card', function(req,res){
     accountNumber: createAccountNumber(),
     //if you create a new Date with no value it automatically uses todays date!
     currentDate: new Date(),
+    dateInsurance: new Date(req.body.dateInsurance),
     cardClass: getCardClass(req.body.type)
   });
 })

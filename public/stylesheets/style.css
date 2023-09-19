@@ -2,9 +2,6 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-body,.bronze{
-  background-color: #605e5b;
-}
 label, input{
   display: block;
 }
@@ -39,6 +36,7 @@ input, select{
 .title{
   display:flex;
   justify-content:center;
+  font: 18px "Comic Sans MS", Helvetica, Arial, sans-serif;
 }
 .address-text p{
   padding:0;
@@ -52,19 +50,19 @@ input, select{
 }
 /*change card colors to reflect type of insurance*/
 .card.premium{
-  border: 2px solid #d7ac57;
-  color: #ffca1b;
-  background-color: rgba(215, 172, 87, 0.62);
+  border: 2px solid #f3b53d;
+  color: #fac002;
+  background-color: rgba(245, 238, 41, 0.61);
 }
 .card.standard{
   border: 2px solid #999;
-  color: #beb6b0;
-  background-color: rgba(153, 153, 153, 0.59);
+  color: #736d6b;
+  background-color: rgba(153, 153, 153, 0.51);
 }
 .card.bronze{
-  border: 2px solid #714740;
-  color: #e1a874;
-  background-color: rgba(113, 71, 64, 0.55);
+  border: 2px solid #fcb221;
+  color: #ff8f2d;
+  background-color: rgba(252, 183, 78, 0.65);
 }
 p.label, .title{
   color: #000000;
